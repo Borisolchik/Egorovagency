@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Egorovagency</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+</head>
+<body>
+
+<svg class="bg_left" width="470" height="419" viewBox="0 0 470 419" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <g filter="url(#filter0_i_1_28)">
+        <path fill-rule="evenodd" clip-rule="evenodd" d="M43.4328 410.107C147.67 380.657 62.1031 303.502 98.4759 255.414C142.66 197 491.186 123.286 468.434 26.699C399.956 -127.104 194.156 -34.0396 142.454 -89.585C92.3313 -143.434 4.42357 -227.864 -63.8169 -255.388C-129.135 -281.733 -269.011 -281.089 -290.833 -154.314C-304.75 -58.9551 -261.367 -35.6642 -292.329 13.0606C-325.114 64.6532 -376.659 107.424 -381.099 168.374C-385.91 234.428 -366.845 307.689 -316.965 351.255C-268.416 393.657 -195.189 375.935 -131.554 386.326C-72.0016 396.051 -11.5614 434.965 43.4328 410.107Z" fill="#162C4E"/>
+    </g>
+</svg>
+<svg class="bg_right" width="271" height="327" viewBox="0 0 271 327" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <g filter="url(#filter0_i_1_29)">
+        <path fill-rule="evenodd" clip-rule="evenodd" d="M692.596 68.3349C731.063 -32.9233 618.057 -10.1912 601.095 -68.0588C580.49 -138.353 729.002 -462.166 637.823 -501.457C473.409 -538.128 425.523 -317.399 350.068 -308.983C276.918 -300.824 156.67 -280.547 93.8751 -242.151C33.7688 -205.398 -49.0901 -92.6886 39.779 0.3896C108.113 68.3963 152.69 47.4384 173.389 101.341C195.307 158.416 198.952 225.298 245.285 265.188C295.498 308.417 365.735 336.769 430.477 322.676C493.491 308.959 522.898 239.593 569.18 194.684C612.493 152.657 679.791 127.312 692.596 68.3349Z" fill="#162C4E"/>
+    </g>
+</svg>
+
+<a href="#" class="logo"><img src="images/logo.svg" alt="Logo"></a>
+<div class="title">Under Construction</div>
+<div class="description">We're making lots of improvements and will be back soon</div>
+
+<div id="timer" class="timer">
+    <div class="timer_item">
+        <div class="days timer_time"></div>
+        <div class="countdown-text">Days</div>
+    </div>
+    <div class="timer_colon">:</div>
+    <div class="timer_item">
+        <div class="hours timer_time"></div>
+        <div class="countdown-text">Hours</div>
+    </div>
+    <div class="timer_colon">:</div>
+    <div class="timer_item">
+        <div class="minutes timer_time"></div>
+        <div class="countdown-text">Minutes</div>
+    </div>
+    <div class="timer_colon">:</div>
+    <div class="timer_item">
+        <div class="seconds timer_time"></div>
+        <div class="countdown-text">Seconds</div>
+    </div>
+</div>
+
+<div class="action">
+    <div class="action_text">Check our event page when you wait:</div>
+    <div class="action_btn"><a href="https://drive.google.com/file/d/1sb4CVYKXUXTydWjisMyFjBiw3n01m35o/view?usp=sharing" target="_blank">Go to the event <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path d="M4.16669 10H15.8334" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+        <path d="M10 4.16666L15.8333 9.99999L10 15.8333" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+    </svg>
+    </a></div>
+</div>
+
+<div class="footer">
+    <div class="footer_action">
+        <form id="subscribeForm" method="post" action="subscribe.php">
+            <input type="email" name="email" id="email" placeholder="Введите ваш email" required>
+            <button type="submit">Подписаться</button>
+            <p id="subscribeMessage"></p>
+        </form>
+    </div>
+</div>
+
+
+<script src="scripts.js"></script>
+</body>
+</html>
